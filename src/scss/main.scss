@@ -1,0 +1,43 @@
+// THEMING BOOTSTRAP
+$dark: #000000;
+$primary: #7a44fe;
+
+$headings-font-family: "Love Ya Like A Sister", cursive;
+
+$navbar-dark-color: rgba($primary, 0.5);
+$navbar-dark-hover-color: rgba($primary, 0.75);
+$navbar-dark-active-color: $primary;
+$navbar-dark-disabled-color: rgba($primary, 0.25);
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color: rgba($primary, 0.1);
+
+$navbar-dark-brand-color: $navbar-dark-active-color;
+$navbar-dark-brand-hover-color: $navbar-dark-active-color;
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$display4-size: 3rem;
+
+$lead-font-size: 1.5rem;
+
+$form-group-margin-bottom: 1.3rem;
+
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.bg-jumbotron {
+  background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rounded-circle {
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+  background-color: #f8f9fb;
+  border: 1px solid black; 
+}
